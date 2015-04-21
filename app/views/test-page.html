@@ -1,0 +1,16 @@
+<p>This is the test-page view.</p>
+
+<p>
+    <input type="number" ng-model="a"/>&#032+&#032<input type="number" ng-model="b"/>&#032=&#032
+    <b ng-if="a && b">{{ a+b | currency: "$": 0}}</b>
+</p>
+
+<p>
+    <form action="">
+        <label>Name:</label>{{user.name}}<br/>
+        <label>Age:</label>
+        <input type="number" ng-model="user.age"/><br/>
+    </form>
+</p>
+
+<pre>{{user | json}}</pre>
