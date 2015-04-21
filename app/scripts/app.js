@@ -15,7 +15,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ngGrid'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -30,6 +31,10 @@ angular
       .when('/test-page', {
         templateUrl: 'views/test-page.html',
         controller: 'TestPageCtrl'
+      })
+      .when('/cars', {
+        templateUrl: 'views/cars.html',
+        controller: 'CarsCtrl'
       })
       .otherwise({
         redirectTo: '/'

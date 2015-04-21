@@ -1,0 +1,19 @@
+[
+  {
+    "brand": "BMW",
+    "model": "328i",
+    "year": 2014,
+    "price": 54444,
+    "image": "http://a2.s3.ua/r650/755/564755/41/285445bd-ebdd-40e7-b85d-bdc261710971.JPG",
+    "small_image": "http://a2.s3.ua/r100/755/564755/41/285445bd-ebdd-40e7-b85d-bdc261710971.JPG"
+  },
+
+  {
+    "brand": "Ford",
+    "model": "Mustang GT",
+    "year": 2011,
+    "price": 40000,
+    "image": "http://a2.s3.ua/r650/785/109785/41/cfeb4e8e1d5018261a5133b22be1acdc.JPG",
+    "small_image": "http://a2.s3.ua/r100/785/109785/41/cfeb4e8e1d5018261a5133b22be1acdc.JPG"
+  }
+]
